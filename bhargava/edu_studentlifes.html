@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Student Life</title>
+    <style>
+     .studentlife_img{
+              position: relative;
+              text-align: center;
+              color: white;
+        }
+        
+        .center_text{
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%); 
+             font-size:50px;
+        }
+        .dropbox{
+            background-color:burlywood;
+            width:100%;
+           padding:60px;
+            margin-top: 0%;
+            margin-left:0%;
+        }
+        .tagline{
+            color:white;
+            background-color: darkgoldenrod;
+            padding: 10px;
+        }
+        
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 45px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+        
+        .personality_development_p{
+            margin-left: 35%;
+            font-size:25px;
+            font-family: sans-serif;
+            padding: 15px;
+        }
+        .personality_development_img{
+            width:10px;
+            height:10px;
+            margin-left: 5%;
+            
+        }
+        .personality_development_h{
+            margin-left: 38%;
+            padding: 10px;
+            color:orangered;
+        }
+        .personality_development{
+            background-color: bisque;
+        }
+        .study_programme_img{
+            float:right;
+            margin-bottom: 30%;
+            padding-right: 40px;            
+        }
+        .study_programme_p{
+            margin-right: 40%;
+            font-size:25px;
+            font-family: sans-serif;
+            padding:15px;
+        }
+        .study_programme_h{
+            margin-left: 35%;
+            padding: 10px;
+            color:darkred;
+        }
+        .study_programme{
+            background-color: darkgrey;
+            padding:20px;
+            
+        }
+        .digital_learning_p{
+            margin-left:35%;
+            padding:15px;
+            font-size:25px;
+            font-family: sans-serif;
+            
+        }
+        .digital_learning_img{
+            width:10px;
+            height:10px;
+            margin-left: 5%;
+            
+        }
+        .digital_learning_h{
+            margin-left: 38%;
+            padding: 0px;
+            color:orangered;
+        }
+        .digital_learning{
+            
+            background-color: bisque;
+        }
+        .health_services_img{
+            float:right;
+            margin-bottom: 30%;
+            padding-right: 40px;            
+        }
+        .health_services_p{
+             margin-right: 40%;
+            font-size:25px;
+            font-family: sans-serif;
+            padding:15px;
+        }
+        .health_services_h{
+            margin-left: 35%;
+            padding: 0px;
+            color:darkred;
+        }
+        .health_services{
+            background-color: darkgrey;
+        }
+        .natures_delight_p{
+            margin-left: 40%;
+            font-size:25px;
+            font-family: sans-serif;
+            padding: 25px;
+        }
+        .natures_delight_img{
+            width:10px;
+            height:10px;
+            margin-left: 5%;
+        }
+        .natures_delight_h{
+            margin-left: 38%;
+            padding: 0px;
+            color:orangered;
+        }
+        .natures_delight{
+            background-color: bisque;
+        }
+        .modern_campus_img{
+            float:right;
+            margin-bottom: 30%;
+            padding-right: 40px;
+        }
+        .modern_campus_p{
+             margin-right: 40%;
+            font-size:25px;
+            font-family: sans-serif;
+            padding:15px;
+        }
+        .modern_campus_h{
+            margin-left: 35%;
+            padding: 0px;
+            color:darkred;
+        }
+        .modern_campus{
+            background-color: darkgrey;
+        }
+    
+    </style>
+    
+    </head>
+<body>
+    
+     <div class="studentlife_img">
+    <img src="banner-student-life-corporate-1.jpg"style="width:100%">
+    <h1 class="center_text">STUDENT LIFE</h1>
+    </div>
+    
+    
+    
+    
+
+   
+    <div class="dropbox">
+<select id="schoolboards-board" class="form-control select" name="SchoolBoards[board]">
+<option value="">Please Select Board</option>
+<option value="3">CBSE</option>
+<option value="4">ICSE</option>
+<option value="2">STATE</option>
+</select>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="states-id" class="form-control select" name="States[id]">
+<option value="">Please Select State</option>
+    <option>Andhra Pradesh</option>
+    <option>Arunachal Pradesh</option>
+    <option>Assam</option>
+    <option>Bihar</option>
+    <option>Chattisgarh</option>
+    <option>Goa</option>
+    <option>Gujarat</option>
+    <option>Haryana</option>
+    <option>Himachal Pradesh</option>
+    <option>Jammu and Kashmir</option>
+    <option>Jharkhand</option>
+    <option>Karnataka</option>
+    <option>Kerala</option>
+    <option>Madhya Pradesh </option>
+    <option>Maharashtra</option>
+    <option>Manipur</option>
+    <option>Meghalaya</option>
+    <option>Mizoram</option>
+    <option>Nagaland</option>
+    <option>Odisha</option>
+    <option>Punjab</option>
+    <option>Rajasthan</option>
+    <option>Sikkim</option>
+    <option>Tamil Nadu</option>
+    <option>Telangana</option>
+    <option>Tripura</option>
+    <option>Uttarakhand</option>
+    <option>Uttar Pradesh</option>
+    <option>West Bengal</option>
+</select>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="states-c_city_id" class="form-control" name="States[c_city_id]">
+<option value="">Please Select City</option>
+</select>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="states-c_school_id" class="form-control" name="States[c_school_id]">
+<option value="">Please Select Branch</option>
+</select>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="find_school_button">Find School</button>        
+</div>
+    
+    <marquee>
+    <div class="tagline">
+    <h3>SRI CHAITANYA FOLLOWS A UNIQUE APPROACH TO COVER ALL ASPECTS OF A CHILD'S DEVELOPMENT.</h3>
+    </div>
+    </marquee>
+    
+    <div class="navgationbar">
+        <ul>
+           <li><a href="#home">PERSONALITY DEVELOPMENT</a></li>
+           <li><a href="#news">STUDY PROGRAMME</a></li>
+           <li><a href="#contact">DIGITAL LEARNING</a></li>
+           <li><a href="#about">HEALTH SERVICES</a></li>
+           <li><a href="#about">NATURE'S DELIGHT</a></li>
+           <li><a href="#about">MODERN CAMPUS</a></li>
+        </ul>
+            </div>
+    <div class="personality_development">
+        <div class="personality_development_h">
+            <h2>PERSONALITY DEVELOPMENT</h2> 
+        </div>
+        <div class="personality_development_img">
+            <img src="personalitydevelopment.jpg"alt="personality_development">
+        </div>
+       
+        <div class="personality_development_p">
+           <p>A well-rounded personality is built on the back of all-round grooming. Being the future citizens of a diverse country, it is essential that these children uphold our rich cultural values. We endeavour to cultivate these values within our global learners through cultural meets, art competitions, music and dance competitions, and much more. At Sri Chaitanya, every child is given a platform to hone and enhance their talents, pursuing them simultaneously with academics.</p>
+        </div>
+    </div>
+    
+    
+    <div class="study_programme">
+       <div class="study_programme_h">
+           <h2>STUDY PROGRAMME</h2>
+        </div>
+        
+        <div class="study_programme_img">
+        <img src="student-life.jpg"alt="study_programme">
+        </div>
+        
+        <div class="study_programme_p">
+           <p>At Sri Chaitanya, we believe in a stress-free learning environment. To that end, our curriculum is specifically designed to lift the burden off students’ shoulders, ensuring that learning is an interactive, engaging process. Special emphasis is put on effective and enjoyable methods of education (our digital learning initiatives are one such example) so that students become knowledgeable, inquisitive global learners.</p>
+        </div>
+        
+       <div class="digital_learning">
+          <div class="digital_learning_h">
+           <h2>DIGITAL LEARNING</h2>
+           </div>
+           <div class="digital_learning_img">
+           <img src="digitallearning.jpg"alt="digitallearning">
+           </div>
+           <div class="digital_learning_p">
+           <p>To usher in a new era of world-class education, Sri Chaitanya has adopted a technology-driven approach to studies. The schools have replaced textbooks with trendy tabs for students from class five to seven. This learning technique not only makes children adept in the use of technology but also reduce the load of study materials to be carried every day.</p>
+           </div>
+        </div>
+    
+        
+        
+        <div class="health_services">
+           <div class="health_services_h">
+               <h2>HEALTH SERVICES</h2>
+            </div>
+            <div class="health_services_img">
+               <img src="healthservices.jpg"alt="health_services">
+            </div>
+            <div class="health_services_p">
+               <p>A healthy mind and body is a must for a successful life. Keeping this in mind, Sri Chaitanya provides its students with a nutritious and well-balanced diet. Apart from this, the schools boast of an in-house dispensary for round-the-clock medical attention. Experienced doctors visit the schools twice a day to attend to ailing children. Light freehand exercises, sports, meditation and yoga are an essential part of our students’ everyday lives, ensuring holistic wellness.</p>
+            </div>
+        </div>
+       
+      
+          <div class="natures_delight">
+             <div class="natures_delight_h">
+                <h2>NATURE'S DELIGHT</h2>
+              </div>
+              <div class="natures_delight_img">
+                 <img src="naturesdelight.jpg"alt="naturesdelight">
+              </div>
+              <div class="natures_delight_p">
+                 <p>Sri Chaitanya’s lush green campus is truly eco-friendly. Scores of trees, landscaped gardens, and ample fresh air create a tranquil atmosphere around the schools. Owing to a healthy environment, the students are active, healthy and are able to perform at their best. Activities like rock climbing, trekking and hiking are undertaken to help children be one with nature throughout their school life.</p>
+              </div>
+          </div>
+    
+         <div class="modern_campus">
+            <div class="modern_campus_h">
+                <h2>MODERN CAMPUS</h2>
+             </div>
+            <div class="modern_campus_img">
+                <img src="moderncampus.jpg"alt="modern_campus">
+             </div>
+             <div class="modern_campus_p">
+                 <p>State-of-the-art infrastructure and modern amenities are a trademark of all Sri Chaitanya schools. Schools in all major towns and cities have sophisticated residential campuses. Some of the salient features include spacious dormitories, large and ultramodern dining halls, hostels with individual lockers, air-conditioned classrooms,  class="modern_campus"full-time hostel wardens, and much more. The children at the boarding house are taken care of by a concerned and watchful warden, whose guidance and atention makes the children feel at home.</p>
+             </div>
+        
+        </div>
+    </div>
+    
+    </body>
+</html>
